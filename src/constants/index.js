@@ -17,6 +17,10 @@ import {
   docker,
   meta,
   starbucks,
+  codeforces,
+  leetcode,
+  SIH,
+  eth,
   tesla,
   shopify,
   carrent,
@@ -27,22 +31,26 @@ import {
 
 export const navLinks = [
   {
-    id: "about",
+    id: "#about",
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "#work",
+    title: "Journey",
   },
   {
-    id: "contact",
+    id: "#contact",
     title: "Contact",
   },
+  {
+    id: "https://drive.google.com/file/d/1TVsiWMXgD2rscWCKFkA5AnmnyfFzSceq/view?usp=sharing",
+    title: "Resume",
+  }
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Developer",
     icon: web,
   },
   {
@@ -54,7 +62,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Web3 Developer",
     icon: creator,
   },
 ];
@@ -116,37 +124,37 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Data Structures & Algorithms",
+    company_name: "500+ Problems",
+    icon: leetcode,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2022 - Jun 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Solved over 500+ problems covering key topics such as binary search, backtracking, dynamic programming, and graph algorithms.",
+      "Learned to identify different types of patterns and approaches in problem-solving, utilizing them to design efficient algorithms.",
+      "Embarked on a challenging journey to master data structures and algorithms, overcoming initial difficulties and steadily improving problem-solving skills.",
+      "Enhanced analytical thinking and logical reasoning by practicing a wide range of problems and exploring different strategies to solve them.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Competitive Coding",
+    company_name: "27+ Contests",
+    icon: codeforces,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jul 2022 - Dec 2022",
+    points: [
+      "Solved contests on various competitive programming platforms such as CodeChef, HackerRank, and HackerEarth.",
+      "Achieved 3-star coder status on CodeChef, demonstrating strong problem-solving skills and proficiency in algorithms and data structures.",
+      "Consistently ranked in the top 10% of participants in coding competitions, showcasing exceptional analytical and coding abilities.",
+      "Enhanced problem-solving speed and accuracy by practicing diverse algorithmic challenges and participating in timed contests.",
+    ],
+  },
+  {
+    title: "Full stack Developement",
+    company_name: "10+ Projects",
+    icon: reactjs,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - Mar 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,16 +163,29 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Web3 Developement",
+    company_name: "5+ Projects",
+    icon: eth,
+    iconBg: "#383E56",
+    date: "Apr 2023 - Jul 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Gained expertise in blockchain development, mastering Solidity and smart contract creation.",
+      "Utilized frameworks like Truffle, Hardhat, Ganache, and Ethers.js for efficient blockchain project development.",
+      "Built and trained neural networks, regression models, and classification models using Scikit-Learn and TensorFlow.",
+      "Explored augmented reality technologies, integrating them into various projects to enhance user experiences.",
+    ],
+  },
+  {
+    title: "Smart India Hackathon",
+    company_name: "Winner - 2023",
+    icon: SIH,
+    iconBg: "#E6DEDD",
+    date: "Aug 2023 - Dec 2023",
+    points: [
+      "Developed a personalized job recommendation system and location-based augmented reality job searching feature, providing users with tailored job recommendations and an immersive job search experience.",
+      "Created a user-friendly React Native app for mobile users with an interactive UI and a Next.js app for the website, ensuring a seamless and engaging user experience.",
+      "Built a robust backend using Node.js, MongoDB, Express, Redis, JWT authentication, Passport.js for OAuth, and schema validation, ensuring security and reliability.",
+      "Collaborated efficiently with team members, integrating various technologies and features cohesively to produce a well-rounded and polished final product.",
     ],
   },
 ];
@@ -198,67 +219,71 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Surviellance Bureau",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Decentralized criminal recognition system which harnesses the power of blockchain technology and machine learning to identify and track criminals across the globe.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "ai/ml",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "blockchain",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/sdmrf/Surveillance_Bureau.git",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "PGRKAM",
+    description: "SIH-winning project tackles unemployment by leveraging machine learning for job recommendations and augmented reality for job search experiences.",
     tags: [
       {
-        name: "react",
+        name: "mern",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "react native",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "AR",
         color: "pink-text-gradient",
+      },
+
+      {
+        name: "ai/ml",
+        color: "blue-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/sdmrf/PGRKAM-SIH2023.git",
   },
   {
-    name: "Trip Guide",
+    name: "Elysian",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "E-commerce platform that offers a wide range of furnitures, home decor, and lifestyle products, providing users with a seamless shopping experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "mern",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "ai/ml",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "redis",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/sdmrf/Elysian.git",
   },
 ];
 

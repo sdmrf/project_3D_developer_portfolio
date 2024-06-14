@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -25,6 +25,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import codeforces from "./company/code-forces.png";
+import leetcode from "./company/leetcode.png";
+import eth from "./company/ethereum.png";
+import SIH from "./company/SIH.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -55,7 +59,11 @@ export {
   meta,
   shopify,
   starbucks,
+  codeforces,
+  leetcode,
   tesla,
+  SIH,
+  eth,
   carrent,
   jobit,
   tripguide,
