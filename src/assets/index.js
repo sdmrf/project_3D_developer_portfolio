@@ -34,6 +34,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import elysian from "./elysian.jpeg";
+import pgrkam from "./pgrkam.jpeg";
+import sb from "./surveillance_bureau.jpeg";
+
 export {
   logo,
   backend,
@@ -67,4 +71,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  elysian,
+  pgrkam,
+  sb,
 };

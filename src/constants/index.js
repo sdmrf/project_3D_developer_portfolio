@@ -26,6 +26,9 @@ import {
   carrent,
   jobit,
   tripguide,
+  elysian,
+  pgrkam,
+  sb,
   threejs,
 } from "../assets";
 
@@ -236,7 +239,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: sb,
     source_code_link: "https://github.com/sdmrf/Surveillance_Bureau.git",
   },
   {
@@ -261,7 +264,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: jobit,
+    image: pgrkam,
     source_code_link: "https://github.com/sdmrf/PGRKAM-SIH2023.git",
   },
   {
@@ -282,7 +285,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: elysian,
     source_code_link: "https://github.com/sdmrf/Elysian.git",
   },
 ];
